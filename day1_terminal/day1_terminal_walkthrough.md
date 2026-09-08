@@ -589,6 +589,6 @@ Now you know enough to navigate the terminal, use commands, and write a simple s
 
 ## Before Next Class
 
-- Install [VSCode](https://code.visualstudio.com) if you don't have it already.
+- Install [Visual Studio Code (VSCode)](https://code.visualstudio.com) if you don't have it already.
 - Sign up for a [GitHub](https://github.com) account, and then for the free
   [GitHub Student Developer Pack](https://education.github.com/pack).
