@@ -49,11 +49,3 @@ Where is the path to the DNA sequence file? ./mystery_protein.fa
 MDKDEAWKCVEQLRREGATQIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATQIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATQIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATQIAYRSDDWRDLKEAWKKGADILICDATGLEHHHHHH
 
 ```
-### For next class:
-```bash
-# Downlaod miniconda installer:
-wget -O ./miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-
-# Then run the installer:
-bash ./miniconda.sh
-```

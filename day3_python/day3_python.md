@@ -178,15 +178,3 @@ Was saved to output_RNA_seq.fa
 ```
 
 Note `transcriber.py` handles invalid sequences --> "Apples" should not be transcribed!
-
-## For next class:
-- Check if you have conda installed by running `conda --version` in your terminal.
-
--  If you do not have conda installed, download Miniconda using the following commands:
-```shell
-# Downlaod miniconda installer:
-curl -o ./miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-
-# Then run the installer:
-bash ./miniconda.sh
-```
