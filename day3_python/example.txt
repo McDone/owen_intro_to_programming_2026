@@ -1,3 +1,1 @@
-Hello, world!Hello again!Hello again!
-Hello again!
-Hello again!
+Hello, world!

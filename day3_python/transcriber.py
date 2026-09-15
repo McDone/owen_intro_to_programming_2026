@@ -5,9 +5,8 @@ with open (filepath, "r") as dnafasta:
     for line in dnafasta:
         if line[0] != ">":
             dnaseq = line
-            for base in dnaseq:
-                if base not in ["A", "G", "C", "T"]:
-                    print("DNA sequence contains non-DNA characters.")
+            if base in dnaseq not in ["A", "G", "C", "T"]: 
+                print("DNA sequence contains non-DNA characters.")
             for base in dnaseq:
                 if base == "T":
                     rnaseq.append("U")
