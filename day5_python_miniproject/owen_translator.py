@@ -65,15 +65,15 @@ def transcriber(user_dna_file):
 
 def translator(transcriber_output): 
     aa_seq = ""
-    for i, (rna_name, rna_seq) in enumerate(rna_dict.items()): #translate RNA to AA
-        for base in rna_seq:
+    for (rna_name, rna_seq) in rna_dict.items(): #translate RNA to AA
+        for i, base in enumerate(rna_seq):
             if base not in ["A", "U", "G", "C"]:
                 print("Invalid RNA sequence.")
                 return None
-        codon = rna_seq[i*3: (i*3)+3]
-        if codon in genetic_code.keys():
-            aa = genetic_code[codon]
-            aa_seq = aa_seq + aa
+            codon = rna_seq[i*3: (i*3)+3]
+            if codon in genetic_code.keys():
+                aa = genetic_code[codon]
+                aa_seq = aa_seq + aa
         else:
             print("Could not find specified codon in genetic_code.")
             break
